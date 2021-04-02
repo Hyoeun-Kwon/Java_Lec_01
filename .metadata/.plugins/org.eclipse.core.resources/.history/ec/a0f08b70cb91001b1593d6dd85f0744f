@@ -1,0 +1,66 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Switch2 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int score = 0;
+		String grade = "";
+
+		
+		
+		System.out.println("성적을 입력하세요:");
+		score = scanner.nextInt();
+		
+		switch (score % 10) {
+		
+		case 10:
+			grade ="error";
+			break;
+		case 9:
+			grade = "A";
+			break;
+		case 8:
+			grade = "B";
+			break;
+		case 7:
+			grade = "C";
+			break;
+		case 6:
+			grade ="D";
+			break;
+		case 0:
+			grade="F";
+			break;
+		default:
+			grade="error";
+			break;
+			
+		}
+		
+		if (grade = "error") {
+			System.out.println("잘못 입력하셨습니다.");
+		}else {
+			System.out.println("귀하의 성적은 " + grade + "학점 입니다.");
+		}
+		
+		
+		
+//		if(score > 100)  {
+//			grade = "error";
+//			
+//		}else if (score >=90) {
+//			grade = "A";
+//		}	
+			
+			
+			
+			
+		
+		
+	}
+
+}

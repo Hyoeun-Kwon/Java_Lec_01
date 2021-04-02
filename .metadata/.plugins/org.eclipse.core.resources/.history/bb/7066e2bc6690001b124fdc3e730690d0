@@ -1,0 +1,32 @@
+package com.javalec.base;
+
+public class Variable_01 {
+
+	public static void main(String[] args) {
+		// 변수 (Variable)
+		// 문자열 변수 선언
+		String str = "Hello, World!"; // 변수 선언 (S-대문자tring 은 문자열,class 형태)
+		
+		System.out.println(str);
+		System.out.println(str);
+		
+		str = "abc"; //string으로 변수를 다시 선언할 필요는 없고, 바꿔주면 값이 바뀜
+		System.out.println(str);
+		
+		// 정수 변수 선언
+		int num1 = 10;
+		int num2 = 20;
+		int plusResult;  //camel기법 (소문자시작, 중간 대문자 시작)
+		
+		System.out.println(num1 + num2);
+		System.out.println(num1 - num2);
+		System.out.println(num1 * num2);
+		System.out.println(num1 / num2);
+		System.out.println((double)num1 / num2); // double로 잠깐동안 num1을 실수로 반영하겠다
+		System.out.println((double)(num1 / num2)); // 이미 정수로 계산후 바꾸면 의미 없음 즉, 변환 의미 없음
+		
+		
+
+	}
+
+}

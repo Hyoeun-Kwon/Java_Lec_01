@@ -1,0 +1,29 @@
+package com.javalec.base;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		/* ------------------------------
+		 * 아래의 기능은 화면에 출력하는 기능입니다.
+		 * ------------------------------- 
+		 */
+		System.out.println("-------------");
+		System.out.println("Hello, World!");
+		System.out.println("-------------");
+		
+		
+		System.out.print("-------------");
+		System.out.print("Hello, World!");
+		System.out.print("-------------");
+		
+					
+		/*
+		 * command + alt + 방향키 : 방향키 방향으로 바로 복사 , alt + 방향키 : 방향으로 이동 ,command + d는 지우기 (맥) 
+		 */
+		
+		
+		
+	}
+
+}

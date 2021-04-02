@@ -1,0 +1,27 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+import jdk.internal.misc.FileSystemOption;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+		String[] name = {"James", "Cathy", "Kenny", "Martin", "Crystal"};
+		Scanner scan = new Scanner(System.in);
+
+		
+		//처리
+		for(int i=0; i<name.length; i++) {
+		System.out.println(name+"의 신장을 입력하세요!");
+		}
+		
+		
+		
+		
+		
+	}
+
+}

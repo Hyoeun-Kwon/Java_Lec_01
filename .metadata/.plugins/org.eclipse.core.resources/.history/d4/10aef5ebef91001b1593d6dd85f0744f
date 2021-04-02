@@ -1,0 +1,19 @@
+package com.javalec.base;
+
+public class Gugu {
+
+	public static void main(String[] args) {
+		// 곱하기 
+		
+		int  dan = 3;
+		
+		for(int i=1; i<=9; i++) {
+			System.out.println(dan+ " X " + i + " = " + (dan*1));
+			
+		}
+		
+		
+
+	}
+
+}

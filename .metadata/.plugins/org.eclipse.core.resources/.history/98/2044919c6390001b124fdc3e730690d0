@@ -1,0 +1,21 @@
+package com.javalec.base;
+
+public class Variable_01 {
+
+	public static void main(String[] args) {
+		// 변수 (Variable)
+		// 문자열 변수 선언
+		String str = "Hello, World!"; // 변수 선언
+		
+		System.out.println(str);
+		System.out.println(str);
+		
+		str = "abc"; //string으로 변수를 다시 선언할 필요는 없고, 바꿔주면 값이 바뀜
+		System.out.println(str);
+		
+		
+		
+
+	}
+
+}
